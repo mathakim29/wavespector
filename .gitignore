@@ -1,0 +1,41 @@
+# Node / Svelte / Vite
+node_modules/
+dist/
+.vite/
+.svelte-kit/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local models, generated audio, and runtime state
+.asep/
+*.wav
+*.mp3
+*.onnx
+*.pth
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local caches
+*.log
+.cache/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
